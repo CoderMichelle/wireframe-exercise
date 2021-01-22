@@ -1,0 +1,75 @@
+nav {
+  background-color: #ddd;
+  height: 100px;
+  padding: 15px 30px;
+}
+
+nav div {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid black;
+  width: 200px;
+
+}
+
+nav div:first-child {
+  width: 200px;
+  height: 30px;
+  background-color: #aaa;
+
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+#firstpic {
+  margin: 30px 10px;
+}
+#centerpic {
+  margin: 30px 05px;
+
+}
+
+#thirdpic {
+  margin: 30px 08px;
+}
+
+aside {
+  width: 50%;
+  float: right;
+}
+
+#movetoright {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+#movetoright h3 {
+  font-size: x-large;
+  margin-bottom: 12px;
+}
+
+#movetoright p {
+  margin-bottom: 12px;
+  line-height: 120%;
+  text-align: justify;
+}
+
+#movetoleft {
+  width: 50%;
+  float: left;
+}
+/* #h3 {
+  float: left;
+} */
+
+
+
+#movetoright button {
+  padding: 6px 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
